@@ -2,6 +2,17 @@
 
 Icecast status page theme.
 
+## Installation
+
+1. Make a backup of your Icecast web directory. Usually located at:
+	`/usr/share/icecast2/web`
+2. Remove all contents from web directory and copy Glu Icecast theme files into it. I prefer to keep bare minimum of files on public side of Icecast.
+3. Change the name of radio station:
+	`<span class="radio-station">Localhost Radio.</span>`
+4. Enjoy
+
+By the way, check out http://localhost:8000/status-json.xsl
+
 License
 -------
 
